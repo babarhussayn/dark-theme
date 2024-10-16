@@ -23,7 +23,7 @@ const HomePage = () => {
                 All your files in one secure location
                 <br /> accessible anywhere.
               </h3>
-              <p className="flex w-[310px] mt-14">
+              <p className="flex w-[310px] mt-14 text-center">
                 Fylo stores all your most important files in one secure
                 location.Access them wherever you need, share and collaborate
                 with friends family, and co-Workers
@@ -35,10 +35,10 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center flex-col mt-14">
+            <div className="flex justify-center items-center flex-col mt-14 w-full">
               <div>
-                <div className="grid grid-cols-2 row-span-2 gap-8">
-                  <div>
+                <div className="grid grid-cols-2 row-span-2 gap-16">
+                  <div className="flex justify-center items-center flex-col">
                     <div>
                       <Image
                         src="/images/icon-access-anywhere.svg"
@@ -47,9 +47,17 @@ const HomePage = () => {
                         height={100}
                       />
                     </div>
-                    <div>content</div>
+                    <div className="flex justify-center items-center flex-col w-[450px]">
+                      <h4 className="text-4xl font-serif">
+                        Access Your files,anywhere
+                      </h4>
+                      <p className="text-center">
+                        The ability to use a smartphone,tablet, or computer to
+                        access your account means your files follow you anywhere
+                      </p>
+                    </div>
                   </div>
-                  <div>
+                  <div className="flex justify-center items-center flex-col">
                     <div>
                       <Image
                         src="/images/icon-security.svg"
@@ -58,9 +66,18 @@ const HomePage = () => {
                         height={100}
                       />
                     </div>
-                    <div>content</div>
+                    <div className="flex justify-center items-center flex-col w-[450px]">
+                      <h4 className="text-4xl font-serif">
+                        Security you can trust
+                      </h4>
+                      <p className="text-center">
+                        2-factor authentication and user-controlled encryption
+                        are just a couple of the security features we allow to
+                        help secure your files
+                      </p>
+                    </div>
                   </div>
-                  <div>
+                  <div className="flex justify-center items-center flex-col">
                     <div>
                       <Image
                         src="/images/icon-collaboration.svg"
@@ -69,9 +86,18 @@ const HomePage = () => {
                         height={100}
                       />
                     </div>
-                    <div>content</div>
+                    <div className="flex justify-center items-center flex-col w-[450px]">
+                      <h4 className="text-4xl font-serif">
+                        Real-time collaboration
+                      </h4>
+                      <p className="text-center">
+                        securely share files and folders with friends,family and
+                        collegues for live collaboration.No email attachments
+                        required
+                      </p>
+                    </div>
                   </div>
-                  <div>
+                  <div className="flex justify-center items-center flex-col">
                     <div>
                       <Image
                         src="/images/icon-any-file.svg"
@@ -80,7 +106,16 @@ const HomePage = () => {
                         height={100}
                       />
                     </div>{" "}
-                    <div>content</div>
+                    <div className="flex justify-center items-center flex-col w-[450px]">
+                      <h4 className="text-4xl font-serif">
+                        Store any type of file
+                      </h4>
+                      <p className="text-center">
+                        whether you sharing holidaya photos or work
+                        documents,Fylo has you covered allowing for all file
+                        types to be stored and shared.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
