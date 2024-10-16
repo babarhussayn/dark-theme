@@ -38,10 +38,50 @@ const HomePage = () => {
             <div className="flex justify-center items-center flex-col mt-14">
               <div>
                 <div className="grid grid-cols-2 row-span-2 gap-8">
-                  <div>hello </div>
-                  <div>h2 </div>
-                  <div>h2 </div>
-                  <div>h2 </div>
+                  <div>
+                    <div>
+                      <Image
+                        src="/images/icon-access-anywhere.svg"
+                        alt="phone"
+                        width={100}
+                        height={100}
+                      />
+                    </div>
+                    <div>content</div>
+                  </div>
+                  <div>
+                    <div>
+                      <Image
+                        src="/images/icon-security.svg"
+                        alt="phone"
+                        width={100}
+                        height={100}
+                      />
+                    </div>
+                    <div>content</div>
+                  </div>
+                  <div>
+                    <div>
+                      <Image
+                        src="/images/icon-collaboration.svg"
+                        alt="phone"
+                        width={100}
+                        height={100}
+                      />
+                    </div>
+                    <div>content</div>
+                  </div>
+                  <div>
+                    <div>
+                      <Image
+                        src="/images/icon-any-file.svg"
+                        alt="phone"
+                        width={100}
+                        height={100}
+                      />
+                    </div>{" "}
+                    <div>content</div>
+                  </div>
                 </div>
               </div>
             </div>
