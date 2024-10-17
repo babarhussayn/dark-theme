@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const HomePage = () => {
@@ -16,8 +17,8 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <div className="bg-bodyback bg-no-repeat  bg-cover  min-h-screen relative ">
-          <div className="w-full absolute mt-28">
+        <div className="bg-bodyback bg-no-repeat  bg-cover bg-center  min-h-screen relative ">
+          <div className="w-full absolute mt-28 inset-0">
             <div className="flex justify-center items-center flex-col ">
               <h3 className="font-serif w-[625px] text-4xl text-nowrap text-center">
                 All your files in one secure location
@@ -35,7 +36,7 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="flex justify-center items-center flex-col mt-14 w-full">
+            <div className="flex justify-center items-center flex-col  w-full">
               <div>
                 <div className="grid grid-cols-2 row-span-2 gap-16">
                   <div className="flex justify-center items-center flex-col">
@@ -115,6 +116,59 @@ const HomePage = () => {
                         documents,Fylo has you covered allowing for all file
                         types to be stored and shared.
                       </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-[#181f2b] w-full min-h-screen flex justify-center items-center">
+              <div className="grid grid-cols-2  items-center">
+                <div>
+                  <div className="">
+                    <Image
+                      src="/images/illustration-stay-productive.png"
+                      alt="imgrt"
+                      width={500}
+                      height={400}
+                    />
+                  </div>
+                </div>
+                <div className="flex justify-center items-center flex-col w-full">
+                  <div className="w-[530px] flex flex-start items-center">
+                    <h4 className="text-4xl ">
+                      Stay productive, <br />
+                      Wherever you are
+                    </h4>
+                  </div>
+                  <div className=" flex justify-center items-center flex-col">
+                    <p className=" p-4 w-[550px]">
+                      Never let location be an issue when accessing your files.
+                      Fylohas you covered for all of your file storage needs.
+                    </p>
+
+                    <p className="p-4 w-[550px]">
+                      Securely share files and folders with friends, family and
+                      colleagues for live collaboration.No email attachments
+                      required.
+                    </p>
+                  </div>
+                  <div className="w-full">
+                    <div className="flex items-center underline decoration-[#62e0d9] p-4 underline-offset-[6px]">
+                      <div>
+                        {" "}
+                        <div>
+                          <Link href="#">See how Fylo work</Link>{" "}
+                        </div>
+                      </div>
+                      <div>
+                        <Image
+                          src="/images/icon-arrow.svg"
+                          alt="ffg"
+                          width={20}
+                          height={20}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
