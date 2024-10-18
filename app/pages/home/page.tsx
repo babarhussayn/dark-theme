@@ -1,3 +1,4 @@
+import Box from "@/app/components/Box";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -122,7 +123,7 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="bg-[#181f2b] w-full min-h-screen mt-10 ">
+            <div className="bg-[#181f2b] w-full  mt-10 ">
               <div className=" flex justify-center items-center">
                 <div className="grid grid-cols-2  items-center">
                   <div>
@@ -177,109 +178,9 @@ const HomePage = () => {
                 </div>
               </div>
               <div>
-                <div className="w-full bg-[#181f2b] mt-20 relative">
-                  <div className="flex justify-center items-center ">
-                    <div className="absolute top-0 left-[17%] transform -translate-x-1 -translate-y-9  z-0">
-                      <Image
-                        src="/images/bg-quotes.png"
-                        alt="comma"
-                        width={80}
-                        height={10}
-                      />
-                    </div>
-                    <div className="  relative z-10 flex justify-center items-center ">
-                      <div className="flex justify-between items-center gap-2 ">
-                        <div className="w-[400px] bg-[#283347] shadow-xl rounded-[16px]">
-                          <div className="p-4 m-4">
-                            <div className="">
-                              <h4>
-                                Fylo has improved our team productivity by an
-                                order of magnitude. Since making the switch our
-                                team has become a well-oiled collaboration
-                                machine.
-                              </h4>
-                            </div>
-                            <div className="flex justify-start items-center gap-8 mt-8">
-                              <div>
-                                <div className=" w-full">
-                                  <Image
-                                    src="/images/profile-1.jpg"
-                                    alt="p-1"
-                                    width={50}
-                                    height={30}
-                                    className="rounded-[36%]"
-                                  />
-                                </div>
-                              </div>
-                              <div>
-                                <h4>Sumeer</h4>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="w-[400px] bg-[#283347] shadow-xl rounded-[16px]">
-                          <div className="p-4 m-4">
-                            <div>
-                              {" "}
-                              <h4>
-                                Fylo has improved our team productivity by an
-                                order of magnitude. Since making the switch our
-                                team has become a well-oiled collaboration
-                                machine.
-                              </h4>
-                            </div>
-                            <div className="flex justify-start items-center gap-8 mt-8">
-                              <div>
-                                <div className=" w-full">
-                                  <Image
-                                    src="/images/profile-2.jpg"
-                                    alt="p-1"
-                                    width={50}
-                                    height={30}
-                                    className="rounded-[36%]"
-                                  />
-                                </div>
-                              </div>
-                              <div>
-                                <h4>Sumeer</h4>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="w-[400px] bg-[#283347] shadow-xl rounded-[16px]">
-                          <div className="p-4 m-4">
-                            <div>
-                              {" "}
-                              <h4>
-                                Fylo has improved our team productivity by an
-                                order of magnitude. Since making the switch our
-                                team has become a well-oiled collaboration
-                                machine.
-                              </h4>
-                            </div>
-                            <div className="flex justify-start items-center gap-8 mt-8">
-                              <div>
-                                <div className=" w-full">
-                                  <Image
-                                    src="/images/profile-3.jpg"
-                                    alt="p-1"
-                                    width={50}
-                                    height={30}
-                                    className="rounded-[36%]"
-                                  />
-                                </div>
-                              </div>
-                              <div>
-                                <h4>Sumeer</h4>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <Box />
               </div>
+              <div></div>
             </div>
           </div>
         </div>
