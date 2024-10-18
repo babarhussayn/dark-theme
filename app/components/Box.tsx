@@ -4,7 +4,7 @@ import React from "react";
 const Box = () => {
   return (
     <>
-      <div className="w-full bg-[#181f2b] mt-20 relative ">
+      <div className="w-full bg-[#181f2b] relative mt-[6rem] ">
         <div className="flex justify-center items-center ">
           <div className="absolute top-0 left-[17%] transform -translate-x-1 -translate-y-9  z-0">
             <Image

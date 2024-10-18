@@ -1,4 +1,5 @@
 import Box from "@/app/components/Box";
+import SearchBox from "@/app/components/SearchBox";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,8 +19,8 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <div className="bg-bodyback bg-no-repeat  bg-cover bg-center  min-h-screen relative ">
-          <div className="w-full absolute mt-28 inset-0">
+        <div className="bg-bodyback bg-no-repeat  bg-cover bg-center    ">
+          <div className="w-full inset-0">
             <div className="flex justify-center items-center flex-col ">
               <h3 className="font-serif w-[625px] text-4xl text-nowrap text-center">
                 All your files in one secure location
@@ -38,7 +39,7 @@ const HomePage = () => {
             </div>
 
             <div className="flex justify-center items-center flex-col  w-full">
-              <div>
+              <div className="mt-[8rem]">
                 <div className="grid grid-cols-2 row-span-2 gap-16">
                   <div className="flex justify-center items-center flex-col">
                     <div>
@@ -123,7 +124,7 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="bg-[#181f2b] w-full  mt-10 ">
+            <div className="bg-[#181f2b] w-full min-h-screen mt-[13rem] ">
               <div className=" flex justify-center items-center">
                 <div className="grid grid-cols-2  items-center">
                   <div>
@@ -136,7 +137,7 @@ const HomePage = () => {
                       />
                     </div>
                   </div>
-                  <div className="flex justify-center items-center flex-col w-full">
+                  <div className="flex justify-between items-center flex-col w-full ml-8">
                     <div className="w-[530px] flex flex-start items-center">
                       <h4 className="text-4xl ">
                         Stay productive, <br />
@@ -177,13 +178,16 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-              <div>
+
+              <div className="flex justify-center items-center flex-col">
                 <Box />
+                <SearchBox />
               </div>
-              <div></div>
             </div>
           </div>
         </div>
+
+        <div></div>
       </div>
     </>
   );
