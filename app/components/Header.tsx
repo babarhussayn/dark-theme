@@ -25,8 +25,8 @@ const Navbar: Navbar[] = [
 const Header = () => {
   return (
     <>
-      <div className=" w-full ">
-        <div className="flex justify-center items-center m-6">
+      <div className=" w-full bg-[#2e3b52] top-0 p-4">
+        <div className="flex justify-center items-center  top-0">
           <div className="flex justify-between items-center w-[50%]">
             <div>
               <div>

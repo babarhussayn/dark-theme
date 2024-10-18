@@ -8,7 +8,7 @@ import React from "react";
 const HomePage = () => {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full bg-[#2e3b52]">
         <div className="flex justify-center items-center flex-col mt-18">
           <div>
             <Image
