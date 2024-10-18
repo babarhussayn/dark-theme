@@ -33,7 +33,7 @@ const Box = () => {
                           alt="p-1"
                           width={50}
                           height={30}
-                          className="rounded-[36%]"
+                          className="rounded-[36px]"
                         />
                       </div>
                     </div>
@@ -61,7 +61,7 @@ const Box = () => {
                           alt="p-1"
                           width={50}
                           height={30}
-                          className="rounded-[36%]"
+                          className="rounded-[36px]"
                         />
                       </div>
                     </div>
@@ -89,7 +89,7 @@ const Box = () => {
                           alt="p-1"
                           width={50}
                           height={30}
-                          className="rounded-[36%]"
+                          className="rounded-[36px]"
                         />
                       </div>
                     </div>
