@@ -126,7 +126,7 @@ const HomePage = () => {
 
             <div className="bg-[#181f2b] w-full min-h-screen mt-[13rem] ">
               <div className=" flex justify-center items-center">
-                <div className="grid grid-cols-2  items-center">
+                <div className="grid md:grid-cols-2 grid-cols-1   items-center">
                   <div>
                     <div className="">
                       <Image
@@ -138,27 +138,27 @@ const HomePage = () => {
                     </div>
                   </div>
                   <div className="flex justify-between items-center flex-col w-full ml-8">
-                    <div className="w-[530px] flex flex-start items-center">
-                      <h4 className="text-4xl ">
+                    <div className="md:w-[530px] flex flex-start items-center">
+                      <h4 className="md:text-4xl text-2xl">
                         Stay productive, <br />
                         Wherever you are
                       </h4>
                     </div>
                     <div className=" flex justify-center items-center flex-col">
-                      <p className=" p-4 w-[550px]">
+                      <p className=" p-4 md:w-[550px] w-[350px]">
                         Never let location be an issue when accessing your
                         files. Fylo has you covered for all of your file storage
                         needs.
                       </p>
 
-                      <p className="p-4 w-[550px]">
+                      <p className="p-4  md:w-[550px] w-[350px]">
                         Securely share files and folders with friends, family
                         and colleagues for live collaboration.No email
                         attachments required.
                       </p>
                     </div>
                     <div className="w-full">
-                      <div className="flex items-center gap-2 underline decoration-[#62e0d9] p-4 underline-offset-[6px]">
+                      <div className="flex justify-center md:justify-normal items-center gap-2 underline decoration-[#62e0d9] p-4 underline-offset-[6px]">
                         <div>
                           {" "}
                           <div>
