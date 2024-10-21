@@ -27,7 +27,7 @@ const Header = () => {
     <>
       <div className=" w-full bg-[#2e3b52] top-0 p-4">
         <div className="flex justify-center items-center  top-0">
-          <div className="flex justify-between items-center w-[50%]">
+          <div className="flex justify-between items-center w-full md:w-[50%]  gap-6 md:gap-0">
             <div>
               <div>
                 <Image
@@ -35,6 +35,7 @@ const Header = () => {
                   alt="logo"
                   width={100}
                   height={50}
+                  className="min-w-[100px]"
                 />
               </div>
             </div>

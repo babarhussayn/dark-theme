@@ -22,7 +22,7 @@ const HomePage = () => {
         <div className="bg-bodyback bg-no-repeat  bg-cover bg-center    ">
           <div className="w-full inset-0">
             <div className="flex justify-center items-center flex-col ">
-              <h3 className="font-serif w-[625px] text-4xl text-nowrap text-center">
+              <h3 className="font-serif md:w-[625px] text-2xl  md:text-4xl text-nowrap text-center">
                 All your files in one secure location
                 <br /> accessible anywhere.
               </h3>
@@ -40,7 +40,7 @@ const HomePage = () => {
 
             <div className="flex justify-center items-center flex-col  w-full">
               <div className="mt-[8rem]">
-                <div className="grid grid-cols-2 row-span-2 gap-16">
+                <div className="grid sm:grid-cols-2 grid-cols-1 row-span-2 gap-16">
                   <div className="flex justify-center items-center flex-col">
                     <div>
                       <Image
@@ -50,11 +50,11 @@ const HomePage = () => {
                         height={100}
                       />
                     </div>
-                    <div className="flex justify-center items-center flex-col w-[450px]">
-                      <h4 className="text-4xl font-serif">
+                    <div className="flex justify-center items-center flex-col w-[450px] md:p-0 p-4">
+                      <h4 className="md:text-4xl text-2xl font-serif md:m-0 m-2">
                         Access Your files,anywhere
                       </h4>
-                      <p className="text-center">
+                      <p className="text-center text-sm w-[250px] sm:w-full">
                         The ability to use a smartphone,tablet, or computer to
                         access your account means your files follow you anywhere
                       </p>
@@ -69,11 +69,11 @@ const HomePage = () => {
                         height={100}
                       />
                     </div>
-                    <div className="flex justify-center items-center flex-col w-[450px]">
-                      <h4 className="text-4xl font-serif">
+                    <div className="flex justify-center items-center flex-col w-[450px] md:p-0 p-4">
+                      <h4 className="sm:text-4xl text-2xl font-serif md:m-0 m-2">
                         Security you can trust
                       </h4>
-                      <p className="text-center">
+                      <p className="text-center  w-[250px] sm:w-full">
                         2-factor authentication and user-controlled encryption
                         are just a couple of the security features we allow to
                         help secure your files
@@ -89,11 +89,11 @@ const HomePage = () => {
                         height={100}
                       />
                     </div>
-                    <div className="flex justify-center items-center flex-col w-[450px]">
-                      <h4 className="text-4xl font-serif">
+                    <div className="flex justify-center items-center flex-col w-[450px] md:p-0 p-4">
+                      <h4 className="md:text-4xl text-2xl font-serif md:m-0 m-2">
                         Real-time collaboration
                       </h4>
-                      <p className="text-center">
+                      <p className="text-center  w-[250px] sm:w-full">
                         securely share files and folders with friends,family and
                         collegues for live collaboration.No email attachments
                         required
@@ -109,11 +109,11 @@ const HomePage = () => {
                         height={100}
                       />
                     </div>{" "}
-                    <div className="flex justify-center items-center flex-col w-[450px]">
-                      <h4 className="text-4xl font-serif">
+                    <div className="flex justify-center items-center flex-col w-[450px] md:p-0 p-4">
+                      <h4 className="md:text-4xl text-2xl font-serif md:m-0 m-2">
                         Store any type of file
                       </h4>
-                      <p className="text-center">
+                      <p className="text-center  w-[250px] sm:w-full">
                         whether you sharing holidaya photos or work
                         documents,Fylo has you covered allowing for all file
                         types to be stored and shared.
