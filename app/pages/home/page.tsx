@@ -32,7 +32,7 @@ const HomePage = () => {
                 with friends family, and co-Workers
               </p>
               <div className="mt-10">
-                <Button className="bg-blue-300 text-[#fefefe] rounded-2xl px-4">
+                <Button className="hover:bg-[#62e0d9] bg-[#62c2e0] text-[#fefefe] rounded-2xl px-4">
                   Get Started
                 </Button>
               </div>

@@ -27,7 +27,7 @@ const SearchBox = () => {
                 />
                 <Button
                   type="submit"
-                  className="bg-[#63e1d9] py-5 px-8 rounded-[50px]"
+                  className="hover:bg-[#63e1d9] bg-[#63cee1] py-5 px-8 rounded-[50px]"
                 >
                   Get Started For Free
                 </Button>

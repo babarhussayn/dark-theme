@@ -43,7 +43,9 @@ const Header = () => {
             <div className="flex justify-between items-center gap-8">
               {Navbar.map((items, index) => (
                 <div key={index}>
-                  <Link href={items.link}>{items.name}</Link>
+                  <Link href={items.link} className="hover:underline">
+                    {items.name}
+                  </Link>
                 </div>
               ))}
             </div>

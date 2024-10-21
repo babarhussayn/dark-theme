@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <>
       <div className="w-full bg-[#0C1524] overflow-hidden ">
-        <div className="flex justify-center items-center md:flex-row flex-col md:mt-[10rem] mt-[20rem]  ">
-          <div className="flex md:w-[1200px] w-[600px] ">
+        <div className="flex justify-center items-center  md:mt-[10rem] mt-[22rem]  ">
+          <div className="flex justify-center items-center flex-col md:flex-row md:w-[1200px] w-[600px] ">
             <div className="flex justify-between items-center flex-col gap-12 p-14 w-full">
               <div className="w-full">
                 <div className="">
@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className=" flex justify-center items-center flex-col gap-4 w-full">
+            <div className=" flex justify-center md:items-center items-start flex-col gap-4 md:w-full w-[75%]">
               <div className="flex justify-center  items-center gap-6">
                 <div>
                   <Image
@@ -65,26 +65,26 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center items-center flex-col w-full">
-              <div>
-                <h4>about us</h4>
-                <ul>
-                  <li>jobs</li>
-                  <li>press</li>
-                  <li>Blog</li>
+            <div className="flex justify-center md:items-center items-start flex-col md:w-full w-[85%] ">
+              <div className="m-4 md:m-0 ">
+                <h4>About us</h4>
+                <ul className=" ">
+                  <li className="mt-2">Jobs</li>
+                  <li className="mt-2">Press</li>
+                  <li className="mt-2">Blog</li>
                 </ul>
               </div>
             </div>
-            <div className="flex justify-center items-center flex-col w-full">
-              <div className="flex flex-start flex-col">
+            <div className="flex justify-center md:items-center items-start flex-col md:w-full w-[85%]">
+              <div className="m-4 md:m-0 ">
                 <h4>Contact us</h4>
                 <ul>
-                  <li>Terms</li>
-                  <li>Privacy</li>
+                  <li className="mt-2">Terms</li>
+                  <li className="mt-2">Privacy</li>
                 </ul>
               </div>
             </div>
-            <div className="flex justify-center items-center w-full">
+            <div className="flex justify-center items-center w-full m-4 md:m-0">
               <div className="flex justify-items-center gap-4">
                 <div className="">
                   <TiSocialFacebookCircular
