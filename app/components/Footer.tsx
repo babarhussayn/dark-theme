@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <>
       <div className="w-full bg-[#0C1524] overflow-hidden ">
-        <div className="flex justify-center items-center flex-row  mt-[10rem]  ">
-          <div className="flex w-[1200px]">
+        <div className="flex justify-center items-center md:flex-row flex-col md:mt-[10rem] mt-[20rem]  ">
+          <div className="flex md:w-[1200px] w-[600px] ">
             <div className="flex justify-between items-center flex-col gap-12 p-14 w-full">
               <div className="w-full">
                 <div className="">

@@ -6,7 +6,7 @@ const Box = () => {
     <>
       <div className="w-full bg-[#181f2b] relative mt-[6rem] ">
         <div className="flex justify-center items-center ">
-          <div className="absolute top-0 left-[17%] transform -translate-x-1 -translate-y-9  z-0">
+          <div className="absolute top-0 md:left-[17%] left-[15%] transform -translate-x-1 -translate-y-9  z-0">
             <Image
               src="/images/bg-quotes.png"
               alt="comma"
@@ -15,15 +15,15 @@ const Box = () => {
             />
           </div>
           <div className="  z-10 flex justify-center items-center ">
-            <div className="flex justify-between items-center gap-2 ">
-              <div className="w-[400px] bg-[#283347] shadow-xl rounded-[16px]">
+            <div className="flex justify-between items-center flex-col md:flex-row gap-2 ">
+              <div className="md:w-[400px] w-[300px] bg-[#283347] shadow-xl rounded-[16px]">
                 <div className="p-4 m-4">
                   <div className="">
-                    <h4>
+                    <p>
                       Fylo has improved our team productivity by an order of
                       magnitude. Since making the switch our team has become a
                       well-oiled collaboration machine.
-                    </h4>
+                    </p>
                   </div>
                   <div className="flex justify-start items-center gap-8 mt-8">
                     <div>
@@ -43,7 +43,7 @@ const Box = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[400px] bg-[#283347] shadow-xl rounded-[16px]">
+              <div className="md:w-[400px] w-[300px] bg-[#283347] shadow-xl rounded-[16px]">
                 <div className="p-4 m-4">
                   <div>
                     {" "}
@@ -71,7 +71,7 @@ const Box = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[400px] bg-[#283347] shadow-xl rounded-[16px]">
+              <div className="md:w-[400px] w-[300px] bg-[#283347] shadow-xl rounded-[16px]">
                 <div className="p-4 m-4">
                   <div>
                     {" "}

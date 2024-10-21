@@ -5,12 +5,12 @@ import React from "react";
 const SearchBox = () => {
   return (
     <>
-      <div className="w-full flex justify-center items-center mt-[50rem]  absolute">
-        <div className=" w-[35%] bg-[#283347] rounded-[10px]">
-          <div className="flex justify-center items-center flex-col p-8">
+      <div className="w-full flex justify-center items-center md:mt-[50rem] mt-[80rem]  absolute">
+        <div className=" md:w-[35%] w-[75%] bg-[#283347] rounded-[10px]">
+          <div className="flex justify-center items-center flex-col md:p-8 p-4">
             <div>
               <div className="flex justify-center items-center flex-col ">
-                <h4 className="text-4xl">Get early access today</h4>
+                <h4 className="md:text-4xl">Get early access today</h4>
                 <p className=" m-4 text-center">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Eligendi exercitationem voluptate optio a tenetur numquam,
@@ -18,8 +18,8 @@ const SearchBox = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center ">
-              <div className="flex w-full max-w-sm items-center space-x-2">
+            <div className="flex justify-center items-center">
+              <div className="flex w-full max-w-sm items-center space-x-2 flex-col md:flex-row gap-4 md:gap-0">
                 <Input
                   type="email"
                   placeholder="Email"
